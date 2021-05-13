@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsterrat:ital,wght@0,300;1,300;1,600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin-right: 0 auto;
+	padding: 0 auto;
+}
+
+body{
+	font-family: 'Monsterrat', sans-serif;
+	margin: 0;
+	background-color: #59575e;
+	height: 100%;
+	position: relative;
+	color: #bfbec2;
+}
+
+main, footer{
+	margin-left: 10px;
+}
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+main img{
+	padding-top: 20px;
+	align-content: center;
+	margin-left: 200px;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	float: left;
+}
+
+#tvhero{
+	background-image:url("images/retrotv.jpg");
+	height:60px;
+	width: 100px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	align-content: center;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+main h2{
+	font-size: 50px;
+}
+
+main p, main ul{
+	font-size: 20px;
+}
+
+main p, main ul, main h2{
+	margin-left: 100px;
+}
+
+footer{
+	text-align: center;
+	color: #4f53a2;
+}
+
+header{
+	background-color: #232329;
+	padding: 15px;
+	width: 100%;
+}
+
+header h1{
+	text-align: center;
+}
+
+nav{
+	font-variant: small-caps;
+	background: rgb(169,126,226);
+	background: linear-gradient(90deg, rgba(54,48,61,1) 0%, rgba(92,82,97,1) 50%, rgba(71,59,77,1) 100%);
+	font-size: 20px;
+	padding: 5px;
+	width: 100%;
+}
+
+nav ul{
+	font-size: 20px;
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: #ed8eab;
+}
+nav a:visited{
+	color: #eb678f;
+}
+nav a:hover{
+	color: #f7e1e8; /*orange*/
+}
+nav a:active{
+	color: black;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td, th{
+	border: 3px solid #685f73;
+	padding: 5px;
+}
+
+th{
+	background-color: #685f73;
+	color: black;
+}
+
+td{
+	background-color: #9f9aa6;
+	color: #1e1030;
+}
+
+td img{
+	align-items: center;
+	padding: 0;
+}
+
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+
+#submit{
+	display: block;
+	background-color: #005a75;
+	color: white;
+}
+
+input{
+	border-radius: 10px;
+	background-color: #005a75;
+	color: white;
+	padding: 3px;
+}
+
+fieldset{
+	padding: 10px;
+	border: 3px solid #005a75;
+	background-color: #88b1bd;
+	border-radius: 5px;
+	max-width: 30%;
+}
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+.row {
+	max-width: 100%;
+}
+
+.logo {
+	margin: 0 auto;
+	display:block;
+}
